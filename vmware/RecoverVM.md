@@ -7,15 +7,15 @@ Connect to VMware Hypervisor via SSH
 
 locate your disk structure files like:
 
-HostName.vmdk
-HostName-flat.vmdk
-HostName-ctk.vmdk
-HostName-000001.vmdk
-HostName-000001-delta.vmdk
-HostName-000001-ctk.vmdk
-.
-.
-.
+*HostName.vmdk
+*HostName-flat.vmdk
+*HostName-ctk.vmdk
+*HostName-000001.vmdk
+*HostName-000001-delta.vmdk
+*HostName-000001-ctk.vmdk
+*.
+*.
+*.
 
 
 
