@@ -17,4 +17,4 @@ locate your files structure like:
 * 
 * 
 
-Run vmkfstools command: **vmkfstools -e -v10 HostName-000001.vmdk** (..and point to your trouble .vmdk)
+Run vmkfstools command: `vmkfstools -e -v10 HostName-000001.vmdk` (..and point to your trouble .vmdk)
