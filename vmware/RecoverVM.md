@@ -18,3 +18,7 @@ locate your files structure like:
 * 
 
 Run vmkfstools command: `vmkfstools -e -v10 HostName-000001.vmdk` (..and point to your trouble .vmdk)
+
+In output result find a line with message like this **Content ID mismatch (parentCID ed06b3ce != 0cb205b1)**
+
+it point that parentCID doesnt match on that VMDK in this case it is expecting **0cb205b1** but current value is **ed06b3ce**
