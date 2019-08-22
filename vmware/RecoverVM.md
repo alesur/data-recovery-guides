@@ -28,7 +28,7 @@ So we need to fix that:
 open in any text editor current trouble file **HostName-000001.vmdk** 
 
 we will get file structure like this:
-`
+```
 # Disk DescriptorFile
 version=2
 encoding="UTF-8"
@@ -44,4 +44,4 @@ RW 1048576000 VMFSSPARSE "HostName-000001-delta.vmdk"
 #DDB
 
 ddb.longContentID = "29441754bee7ae3d9cc80a26d9c73e0a"
-`
+```
