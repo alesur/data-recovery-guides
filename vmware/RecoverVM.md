@@ -5,7 +5,7 @@ Connect to VMware Hypervisor via SSH
 
 **cd** (change directory) to your VMDK files, (default **/vmfs/volumes/** etc.)
 
-locate your disk structure files like:
+locate your files structure like:
 
 * HostName.vmdk
 * HostName-flat.vmdk
@@ -13,9 +13,9 @@ locate your disk structure files like:
 * HostName-000001.vmdk
 * HostName-000001-delta.vmdk
 * HostName-000001-ctk.vmdk
-* .
-* .
-* .
+* 
+* 
+* 
 
 
 
