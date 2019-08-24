@@ -47,4 +47,24 @@ ddb.longContentID = "29441754bee7ae3d9cc80a26d9c73e0a"
 ```
 
 So now we need to change 
+parentCID=**5ad259c6** line value to **0cb205b1**
 
+so final result will look like this 
+
+```
+# Disk DescriptorFile
+version=2
+encoding="UTF-8"
+CID=d9c73e0a
+parentCID=0cb205b1
+isNativeSnapshot="no"
+createType="vmfsSparse"
+parentFileNameHint="HostName.vmdk"
+# Extent description
+RW 1048576000 VMFSSPARSE "HostName-000001-delta.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.longContentID = "29441754bee7ae3d9cc80a26d9c73e0a"
+```
