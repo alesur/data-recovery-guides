@@ -68,3 +68,14 @@ RW 1048576000 VMFSSPARSE "HostName-000001-delta.vmdk"
 
 ddb.longContentID = "29441754bee7ae3d9cc80a26d9c73e0a"
 ```
+
+Save the file and close it.
+
+Now rerun check command once more on this file `vmkfstools -e -v10 HostName-000001.vmdk`
+
+it should now pass sucessfully
+
+Now at this point don't mount it to same HOST!
+Create new Virtual Machine and mount it to this disk to it to access the data.
+
+
