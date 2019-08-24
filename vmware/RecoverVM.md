@@ -76,6 +76,6 @@ Now rerun check command once more on this file `vmkfstools -e -v10 HostName-0000
 it should now pass sucessfully
 
 Now at this point don't mount it to same HOST!
-Create new Virtual Machine and mount it to this disk to it to access the data.
+Create new Virtual Machine and mount this disk to it to, access the data latest data.
 
-
+Hope this helps :)
