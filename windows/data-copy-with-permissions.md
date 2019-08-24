@@ -1,4 +1,4 @@
-## Windows Command to retain all permisions, ownership and timestamps of the entire folder structure and data while copying from place to other:
+## Windows Command to retain all permisions, ownership and timestamps of the entire folder structure and data while copying from one place to another:
 
 
 robocopy source destination /E /ZB /DCOPY:T /COPYALL /R:1 /W:1 /V /TEE /LOG:Robocopy.log
